@@ -3,6 +3,8 @@ Consul-rpm-rhel6
 
 Building the **consul** and **consul-template** RPM packages for RedHat Enterprise Linux 6.
 
+In addition to above, this fork, also build **consul-agent** RPM that installs and runs consul as agent. While running consul in server mode is left to **consul** package. It is the same binary inside, configuration is different. 
+
 
 Requirements
 -------------------

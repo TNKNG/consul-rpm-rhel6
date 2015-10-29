@@ -9,3 +9,5 @@ useradd -M consul-template > /dev/null 2>&1
 chown consul:consul /var/consul-template/ > /dev/null 2>&1
 
 chkconfig --add consul-template > /dev/null 2>&1
+chkconfig consul-template on
+/etc/init.d/consul-template start

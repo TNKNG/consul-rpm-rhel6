@@ -53,7 +53,7 @@ fpm -s dir -t rpm -f \
        -C target -n ${NAME} \
        -v ${VERSION} \
        -p target \
-       -d "consul" \
+       -d "consul-agent" \
        --after-install spec/template_install.spec \
        --after-remove spec/template_uninstall.spec \
        --rpm-ignore-iteration-in-dependencies \
